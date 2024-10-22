@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/style.css">
+    <header>
+        <a href="https://bananaking.cloudfree.jp" class="header">バナナ国王陛下</a><span class="header"> | </span><a href="/bbs.php" class="header">匿名掲示板サイト</a><span class="header"> | </span><a href="/chat.php" class="header">チャットサイト</a><span class="header"> | </span><a href="/message" class="header">個人メッセージングアプリ(β版)</a> | </span><a href="/file.php" class="header">ファイルアップローダー</a>
+</header>
+<div id="loadArea" class="loadTo"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', function(){
+        fetch('/notice.html') //ロード元URL
+        .then(data => data.text())
+        .then(html => document.getElementById('loadArea').innerHTML = html) //ロード先ID指定
+        .then(() => {
+                //ロード後の処理を記述                 
+            });
+    });
+</script>

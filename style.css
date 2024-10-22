@@ -1,0 +1,320 @@
+body {
+    font-family:Arial;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a.no-color-change {
+  color: blue;
+}
+.tokumei{
+    padding:0.1px;
+    color: #2c2c2f;
+    background: #FFFFCC;
+    border-top: solid 5px #FFFF00;
+    border-bottom: solid 5px #FFFF00;
+}
+/* 検索フォーム
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0073e6;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #005bb5;
+} */
+/* 全体レイアウト */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* ヒーローセクション */
+.hero {
+    background-color: #ffeb3b;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+/* 検索フォーム */
+.search-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #0073e6;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #005bb5;
+}
+
+/* サイト情報 */
+.site-info {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.site-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.site-info a:hover {
+    text-decoration: underline;
+}
+
+/* コールトゥアクション */
+.call-to-action {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.call-to-action a {
+    color: #e60000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.call-to-action a:hover {
+    text-decoration: underline;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
+/* 全体レイアウト */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* ヒーローセクション */
+.hero {
+    background-color: #ffeb3b;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+/* 検索フォーム */
+.search-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #0073e6;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #005bb5;
+}
+
+/* サイト情報 */
+.site-info {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.site-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.site-info a:hover {
+    text-decoration: underline;
+}
+
+/* コールトゥアクション */
+.call-to-action {
+    background-color: #ffcccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.call-to-action a {
+    color: #e60000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.call-to-action a:hover {
+    text-decoration: underline;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
+/* スマホ */
+ @media screen and (max-width: 480px) {
+ /*ここにスマホ用のCSSを記述する*/
+header{
+    background-color:snow;
+    height: fit-content;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-radius:1px;
+    padding:1px;
+    font-size:3%;
+}
+.header{
+    font-family:"ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
+    text-decoration: none;
+    color:black;
+}
+ }
+/* タブレット */
+ @media only screen and (min-width: 480px) and (max-width: 1024px) {
+ /*ここにタブレット用のCSSを記述する*/
+header{
+    background-color:snow;
+    height: fit-content;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-radius:1px;
+    padding:1px;
+    font-size:50%;
+}
+.header{
+    font-family:"ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
+    text-decoration: none;
+    color:black;
+    font-size:10px;
+}
+ }
+/* パソコン */
+ @media screen and (min-width: 1024px) {
+ /*ここにPC用のCSSを記述する*/
+header{
+    background-color:snow;
+    height: fit-content;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-top:1px solid #ccc;
+    border-radius:1px;
+    padding:1px;
+    font-size:20px;
+}
+.header{
+    font-family:"ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+}
+ }
